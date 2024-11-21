@@ -117,10 +117,10 @@ public static void algorithm1(String input)
  // Assume input is not null and is not empty
  // First character is always added no matter what
  String lower_case = input.toLowerCase();
- String output  	  = lower_case.substring(0, 1);	// I always add the first character
- int vowels_rem 	  = 0;
- int repeat_rem    = 0;
- int char_saved    = 0;
+ String output = lower_case.substring(0, 1);	// I always add the first character
+ int vowels_rem = 0;
+ int repeat_rem = 0;
+ int char_saved = 0;
 
  final String VOWELS = "aeiou";
 
